@@ -1,0 +1,9 @@
+datamodel: schema.prisma
+
+generate:
+  - generator: javascript-client
+    output: ../src/generated/prisma-client
+
+
+
+endpoint: https://us1.prisma.sh/lecalviniste-4a6974/formulaire-api/dev
